@@ -3,6 +3,7 @@
   channel = "stable-24.05";
   packages = [
     pkgs.nodejs_20
+    pkgs.just
     #pkgs.nodePackages.vite  # Add vite as a package
   ];
   idx.extensions = [
